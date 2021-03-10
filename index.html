@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital@1&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Estilo -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>LR Software</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-dark navbar-expand-lg py-3 py-lg-4"><!-- Navbar -->
+        <div class="container"><!-- Container -->
+            <a href="#" class="navbar-brand"><img src="./img/logo.svg" class="logo" width="200" alt="Agência - LR Software"></a>
+            <!-- Toggle -->
+            <button type="button" class="py-2 bg-yellow navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="NavbarMenu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!--/ Toggle -->
+            <div class="collapse navbar-collapse" id="navbar-menu"><!-- Collapse -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#servicos" onclick="sc('#servicos')" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contratacao" onclick="sc('#contratacao')" class="nav-link">Contrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" onclick="sc('#sobre')" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#equipe" onclick="sc('#equipe')" class="nav-link">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#clientes" onclick="sc('#clientes')" class="nav-link">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" onclick="sc('#contato')" class="nav-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Whastapp</a>
+                    </li>
+                </ul>
+            </div><!--/ Collapse -->
+        </div><!--/ Container -->
+    </nav><!--/ Navbar -->
+    <header class="d-flex">
+        <video autoplay loop class="bg_video" muted>
+            <source src="videos/bg.webm" type="video/webm">
+            <source src="videos/bg.mp4" type="video/mp4">
+        </video>
+        <div class="container pt-5 m-auto text-center">
+            <h1 class="display-3">LR Software</h1>
+            <p class="p-serif" style="color:#eee">Desenvolvimento de sites e aplicativos</p>
+            <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="large btn btn-yellow mt-5"><i class="m-auto fab fa-whatsapp"></i> Faça seu Orçamento</a>
+        </div>
+    </header>
+    
+    <section id="servicos" class="py-5"><!--/ Serviços -->
+        <div class="container text-center py-5">
+            <h2 class="text-uppercase">Serviços</h2>
+            <p class="p-serif">Desenvolvimento de Sites e Aplicaçoes com tecnologia e segurança</p>
+            <div class="row"><!-- Row -->
+                <div class="col-12 col-md-4"><!-- Col - Wordpress -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#portfolio1" data-toggle="modal" data-target="#portfolio1">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/wordpress.jpg" class="img-fluid" alt="Tópicos">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">Sites Wordpress</h3>
+                        <p class="p-serif">Sites Responsivos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio1" tabindex="-1" role="dialog" aria-labelladby="Tópicos" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/wordpress.jpg');">
+                                    <!-- Close -->
+                                    <span class="ml-auto" data-dismiss="modal"><i class="m-auto fas fa-times modal-close"></i></span>
+                                    <!--/ Close -->
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">Sites Wordpress</h2>
+                                    <p class="p-serif">Atualização rápida e personalização</p>
+                                    <!-- <img src="./img/wordpress.jpg" alt="WordPress"> -->
+                                    <p class="justify">
+                                        WordPress é a plataforma usada por mais de 30% dos sites do mundo, isto é, ele está constantemente recebendo melhorias da comunidade de design e criação. Recebe atualizações regulares, com correção de bugs e lançamentos de novos recursos.<br>
+                                    </p><p class="justify">
+                                        Com um painel de controle amigável, a tarefa de atualizar o conteúdo do seu site ficou fácil. Qualquer pessoa sem conhecimento técnico conseguirá gerenciar o site. Você poderá adicionar textos, posts, fotos, vídeos, promoções e outros conteúdos com facilidade e autonomia.<br>
+                                    </p><p class="justify">
+                                        Todos os sites são criados para que possam ter um melhor posicionamento no Google. Ao desenvolver o site, seguimos todas as diretrizes e critérios impostos pelo Google. Seu site já será entregue para você totalmente otimizado para os buscadores e você poderá ficar na 1ª página do Google em pouco tempo.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>                                        
+                                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+
+                                        <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modal -->
+                </div>
+                <div class="col-12 col-md-4"><!-- Col - Ecommerce -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#portfolio2" data-toggle="modal" data-target="#portfolio2">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/ecommerce.jpeg" class="img-fluid" alt="Explorar">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">Ecommerce</h3>
+                        <p class="p-serif">Sites Responsivos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio2" tabindex="-1" role="dialog" aria-labelladby="Explorar" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/ecommerce.jpeg');">
+                                    <!-- Close -->
+                                    <span class="ml-auto" data-dismiss="modal"><i class="m-auto fas fa-times modal-close"></i></span>
+                                    <!--/ Close -->
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">Ecommerce</h2>
+                                    <p class="p-serif">Sua loja online aberta 24h/dia</p>
+                                    <p class="justify">
+                                        Buscando expandir seu negócio criando um novo canal de vendas? Crie seu próprio ecommerce.
+                                    </p><p class="justify">
+                                        Personalize tudo, desde a vitrine até a finalização da compra, incluindo páginas de produtos, carrinho e área de membros da loja.<br>
+                                    </p><p class="justify">
+                                        Ofereça quantos produtos quiser em coleções de produtos ilimitadas. Gerencie seu próprio estoque ou rede de fornecedores com os quais você trabalha. Defina regras de frete e impostos personalizadas para cada venda.<br>
+                                    </p><p class="justify">
+                                        Comece a aceitar pagamentos online seguros, conectando-se às maiores plataformas de pagamento do mercado.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>                                        
+                                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+
+                                        <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modal -->
+                </div>
+                <div class="col-12 col-md-4"><!-- Col - Ensino -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#" data-toggle="modal" data-target="#portfolio3">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/ead.jpeg" class="img-fluid" alt="Terminar">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">Plataforma EAD</h3>
+                        <p class="p-serif">Sites Responsivos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio3" tabindex="-1" role="dialog" aria-labelladby="Terminar" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/ead.jpeg');">
+                                    <!-- Close -->
+                                    <span class="ml-auto" data-dismiss="modal"><i class="m-auto fas fa-times modal-close"></i></span>
+                                    <!--/ Close -->
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">Plataforma de Ensino à Distância</h2>
+                                    <p class="p-serif">Sua própria plataforma de ensino</p>
+                                    <p class="justify">
+                                        Crie seu Ambiente Virtual de Aprendizagem com interface amigável e intuitiva.<br> 
+                                    </p><p class="justify">
+                                        Diversas ferramentas de integração e avaliação, aumentando a interatividade e facilitando o processo de aprendizagem do aluno.<br>
+                                    </p><p class="justify">
+                                        Caso necessário, venda seus cursos onlines com uma plataforma automatizada, os alunos se inscrevem de forma automática, reduzindo os custos de suporte.                        
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>                                        
+                                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+
+                                        <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modal -->
+                </div>
+                <div class="col-12 col-md-4"><!-- Col - Sistemas Web -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#" data-toggle="modal" data-target="#portfolio4">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/sistemas.jpg" class="img-fluid" alt="Linhas">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">Sistemas Web Sob Medida</h3>
+                        <p class="p-serif">Sites Responsivos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio4" tabindex="-1" role="dialog" aria-labelladby="Linhas" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/sistemas.jpg');">
+                                    <!-- Close -->
+                                    <span class="ml-auto" data-dismiss="modal"><i class="m-auto fas fa-times modal-close"></i></span>
+                                    <!--/ Close -->
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">Sistemas Web Sob Medida</h2>
+                                    <p class="p-serif">Um sistema completo e personalizado para o seu negócio</p>
+                                    <p class="justify">
+                                        Um sistema sob medida é aquele que será desenvolvido exatamente conforme as necessidades da sua empresa. Assim, você não precisará se adaptar para usar ferramentas prontas, o software será construido do 0 para atender as demandas específicas do seu negócios.<br> 
+                                    </p><p class="justify">
+                                        Trabalhamos por prototipagem rápida, em um modelo incremental, ou seja, não será necessário definir todos os detalhes do sistema de antemão. Baseado na ideia inicial, contruímos um protótipo, que será melhorado com pequenos incrementos, novas versões vão sendo liberadas e, com isso, sua empresa começa a trabalhar com maior rapidez e tem mais flexibilidade na criação do sistema, se adaptando ás necessidades do consumidor final do software.<br>
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>                                        
+                                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+
+                                        <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modal -->
+                </div>
+                <div class="col-12 col-md-4"><!-- Col - PWA -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#" data-toggle="modal" data-target="#portfolio5">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/pwa.jpg" class="img-fluid" alt="Linhas">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">PWA - Tranforme seu Site</h3>
+                        <p class="p-serif">Aplicativos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio5" tabindex="-1" role="dialog" aria-labelladby="Linhas" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/pwa.jpg');">
+                                    <!-- Close -->
+                                    <span class="ml-auto" data-dismiss="modal"></span>
+                                    <!--/ Close -->
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">PWA - Tranforme seu Site</h2>
+                                    <p class="p-serif">Tranforme seu site em um aplicativo</p>
+                                    <p class="justify">
+                                        Transforme seu Site/Ecommerce/Plataforma de Ensino na Web em um aplicativo, disponível para dispositivos Android e IOS.<br> 
+                                    </p><p class="justify">
+                                        Torne o acesso ao seu site mais fácil e frequente para seus clientes, permitindo que eles instalem o aplicativo da sua empresa<br>
+                                    </p><p class="justify">
+                                        Disponibilize seu aplicativo nas principais lojas do mercado (Play Store e Aplle Store).                        
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>
+                                        <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+                                        <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Modal -->
+                </div>
+                <div class="col-12 col-md-4"><!-- Col - Rect Native -->
+                    <div class="portfolio-item pb-2">
+                        <a href="#" data-toggle="modal" data-target="#portfolio6">
+                            <div class="portfolio-thumb">
+                                <div><i class="m-auto fas fa-plus fa-3x"></i></div>
+                                <img src="./img/reactNative.jpg" class="img-fluid" alt="Sudoeste">
+                            </div>
+                        </a>
+                        <h3 class="mt-3">Aplicativo React Native</h3>
+                        <p class="p-serif">Aplicativos</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="portfolio6" tabindex="-1" role="dialog" aria-labelladby="Sudoeste" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" role="document">
+                                <div class="modal-header" style="background-image: url('./img/reactNative.jpg');">
+                                    <span class="ml-auto" data-dismiss="modal"><i class="m-auto fas fa-times modal-close"></i></span>
+
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="modal-title">Aplicativo React Native</h2>
+                                    <p class="p-serif">O melhor desempenho, com um aplicativo nativo para Android e IOS</p>
+                                    <p class="justify">
+                                        Criação de Aplicativos Nativos, que funcionam offline e entregam o melhor desempenho para o usuário<br> 
+                                    </p><p class="justify">
+                                        O React Native é uma ferramenta que possibilita com o mesmo código-fonte se gere versões de aplicativo para iOS e Android, o que poupa muitas horas e custos com programação, sem penalizar o desenpenho e velocidade.<br>
+                                    </p><p class="justify">
+                                        Aplicativos como o Facebook, Instagram, UberEATS, Airbnb e Nubank foram desenvolvidos utilizando esta tecnologia.<br>                        
+                                    </p><p class="justify">
+                                        Você terá sua aplicação com a tecnologia mais moderna do mercado.<br>                        
+                                    </p>
+                                </div>
+                                <div class="modal-footer">                                        
+                                    <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn-link btn btn-yellow"><i class="m-auto fab fa-whatsapp"></i> Saiba Mais</a><br>
+                                    <button data-dismiss="modal" type="button" class="btn btn-warning mt-3 text-white bg-yellow">&times; Fechar</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/ Row -->
+        </div>
+    </section><!--/ Serviços -->
+    <section id="contratacao" class="py-5"><!-- Como Contratar -->
+        <div class="container text-center py-5">
+            <h2 class="text-uppercase">Como contratar</h2>
+            <p class="p-serif">Passo a passo para te o seu site personalizado</p>
+            
+            <div class="row mt-5"><!-- Row -->
+                <div class="col-12 col-md-4">
+                    <span class="d-flex bg-yellow ser-icon">
+                        <!-- <i class="m-auto fas fa-clipboard-list fa-4x"></i> -->
+                        <i class="m-auto fab fa-whatsapp fa-4x"></i>
+                    </span>
+                    <h4>Entre em contato</h4>
+                    <p>
+                        Entre em contato com a nossa equipe pelo Whatsapp.
+                        <b>Te ajudaremos a encontrar a melhor solução para o seu negócio.</b> 
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <span class="d-flex bg-yellow ser-icon">
+                        <i class="m-auto fas fa-clipboard-list fa-4x"></i>
+                    </span>
+                    <h4>Faça seu orçamento</h4>
+                    <p>
+                        Após definirmos juntos a melhor solução.
+                        <b>Receba seu orçamento grátis e sem compromisso.</b> 
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <span class="d-flex bg-yellow ser-icon">
+                        <i class="m-auto fas fa-mobile-alt fa-4x"></i>
+                    </span>
+                    <h4>Pronto para uso</h4>
+                    <p>
+                        Entregamos seu software pronto.
+                        <b>Tudo funcionando no domínio e hospedagem previamente contratado.</b> 
+                    </p>
+                </div>
+            </div><!--/ Row -->
+                <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa" class="btn large btn-yellow mt-5"><i class="m-auto fab fa-whatsapp"></i> Entre em Contato</a>
+        </div>
+    </section>
+    <section id="sobre" class="py-5"><!-- Sobre -->
+        <div class="container text-center py-5">
+            <h2 class="text-uppercase">Sobre    </h2>
+            <p class="p-serif"></p>
+            <div class="row mt-5"><!-- Row -->
+                <p class="justify">
+                    Por melhor que seja o produto ou serviço que sua Empresa oferece se você não é visto as pessoas acabam não te conhecendo e você perde um número considerável de clientes. Estudos mostram que uma Empresa que não tem presença digital alcança em média apenas <b>10% do público</b> que ela alcançaria com a Internet.<br>
+                </p><p class="justify">
+                    Com a missão de <b>escalar os negócios de nossos clientes por meio de Sites, Aplicações e Sistemas Web</b>, surge a <b>LR Software</b>. Uma empresa de desenvolvimento de software moderna focada na principais tecnologias de desenvolvimento do mercado.<br>
+                </p><p class="justify">
+                    Trabalhamos com as linguagens <b>Javascript e PHP</b>, a combinação mais usada e mais completa para o desenvolvimento de Sistemas Web. Utilizando Frameworks como: <b>Node, React, React Native e Laravel</b>, alinhados a tecnologias como: <b>WordPress, Moodle, Woocomerce</b>, entre outros. Permitindo um desenvolvimento rápido, com um desempenho acima da média e sem implicar em custos altos.
+                </p><p class="justify">
+                    <b>Código limpo, qualidade elevada, custos baixos e atendimento personalizado</b> são os nossos principios e seguido esses princípio construiremos soluções para que <b>você lucre</b> mais em seu negócio. Não perca tempo, <a href="https://api.whatsapp.com/send?phone=5567999654445&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20a%20cria%C3%A7%C3%A3o%20de%20um%20sistema%20para%20a%20minha%20empresa">Clique aqui</a> e fale conosco imediatamente.
+                </p>  
+            </div><!--/ Row -->
+        </div>
+    </section>
+    <section id="equipe" class="py-5"><!-- Equipe -->
+        <div class="container text-center py-5">
+            <h2 class="text-uppercase">Nossa Equipe</h2>
+            
+            <div class="row mt-5"><!-- Row -->
+                <div class="col-12 col-lg-4">
+                    <div>
+                        <img src="./img/silvia.jpeg" class="img-equipe" alt="Kay Garland">
+                        <h4 class="mt-3 mb-0 ">Silvia Lopes</h4>
+                        <p>Marketing & Vendas</p>
+                        <a href="https://www.instagram.com/_silvia_lopes/" class="btn btn-dark btn-social rounded-circle" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram text-white"></i></a>
+                        <a href="https://www.facebook.com/silvialopes.lg" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a href="https://www.linkedin.com/in/silvia-lopes-547056145/" class="btn btn-dark btn-social rounded-circle" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div>
+                        <img src="./img/lucas.jpg" class="img-equipe" alt="Larry Parker">
+                        <h4 class="mt-3 mb-0">Lucas Roscoe</h4>
+                        <p>CEO & Desenvolvedor Senior</p>
+                        <a href="https://www.instagram.com/roscoelucas/" class="btn btn-dark btn-social rounded-circle" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram text-white"></i></a>
+                        <a href="https://www.facebook.com/lucascroscoe/" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a href="www.linkedin.com/in/lucas-roscoe" class="btn btn-dark btn-social rounded-circle" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div>
+                        <img src="./img/robert.jpg" class="img-equipe" alt="Diana Petersen">
+                        <h4 class="mt-3 mb-0 ">Robert Gonçalves</h4>
+                        <p>Desenvolvedor Júnior</p>
+                        <a href="https://www.instagram.com/robertgoncalvezz/" class="btn btn-dark btn-social rounded-circle" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram text-white"></i></a>
+                        <a href="https://www.facebook.com/robert.goncalves.587/" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a href="#equipe" class="btn btn-dark btn-social rounded-circle" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+            </div><!--/ Row -->
+            <p class="p-equipe">
+                Ajudamos empreendedores a melhorarem seus resultados através de sites e aplicações.
+            </p>
+        </div>
+    </section><!--/ Equipe -->
+    <section id="clientes"class="container py-5 my-2 text-center"><!-- Clientes -->
+        <h2 class="text-uppercase">Clientes</h2>
+        <br><br>
+        <div class="row">
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/coopsema.jpg" class="img-fluid" alt="Coopsema">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/coperplan.jpg" class="img-fluid" alt="Coperplan">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/solucoes2c.jpg" class="img-fluid" alt="soluções2c">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/arkun.jpg" class="img-fluid" alt="Arkun">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/pro-fisse.jpg" class="img-fluid" alt="Pro-Fissa">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/maisagro.jpg" class="img-fluid" alt="Mais Agro">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/ingressozapp.jpg" class="img-fluid" alt="Ingressozapp">
+            </div>
+            <div class="col-12 col-md-3 my-2">
+                <img src="./img/opinioes.jpg" class="img-fluid" alt="Opiniões do Campo">
+            </div>
+        </div>
+    </section><!--/ Clientes -->
+    <section id="contato" class="py-5"><!-- Contato -->
+        <div class="row"><!-- Row -->
+            <div class="col-12 col-md-6">
+                <div class="container text-center py-5 ">
+                    <h2 class="text-uppercase">Contate-nos</h2>
+                    <form method="post" action="#" class="needs-validation" novalidate><!-- Form -->
+                        <div class="row mt-5"><!-- Row -->
+                            <div class="col-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="nome" class="sr-only">Seu Nome *</label>
+                                    <input type="text" name="nome" id="nome" class="form-control form-control-lg" placeholder="Seu Nome *" required>
+                                    <div class="invalid-feedback">
+                                        É obrigatorio inserir um nome valido.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">Seu Email *</label>
+                                    <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Seu Email *" required>
+                                    <div class="invalid-feedback">
+                                        É obrigatorio inserir um email valido.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone" class="sr-only">Seu Telefone *</label>
+                                    <input type="text" name="telefone" id="telefone" class="form-control form-control-lg" placeholder="Seu Telefone *" required>
+                                    <div class="invalid-feedback">
+                                        É obrigatorio inserir um telefone valido.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="form-group">
+                                    <label for="mensagem" class="sr-only">Sua Mensagem *</label>
+                                    <textarea type="text" rows="8" name="mensagem" id="mensagem" class="form-control form-control-lg" placeholder="Mensagem *" required></textarea>
+                                    <div class="invalid-feedback">
+                                        É obrigatorio inserir uma mensagem valido.
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/ Row -->
+                        <button type="submit" class="btn large btn-yellow mt-4">Enviar Mensagem</button>
+                    </form><!--/ Form -->
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="container text-center py-5" style="height: 100%;">
+                    <h2 class="text-uppercase">Faça uma visita</h2><br><br>
+                    <iframe width="100%" height="80%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Rua%20Ov%C3%ADdeo%20Serra,%20667,%20S%C3%A3o%20Francisco%20Campo%20Grande+(LR%20Software)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </div>
+    </section><!--/ Contato -->
+    <footer>
+        <div class="container py-3">
+            <div class="row align-items-center justify-content-between text-center">
+                <div class="col-12 col-md-auto my-2">Copyright &copy; LR Software 2021</div>
+                <div class="col-12 col-md-auto my-2">
+                    <a href="#" class="btn btn-dark btn-social rounded-circle" aria-label="Whatsapp" title="Whatsapp">  <i class="fab fa-whatsapp text-white"></i></a>
+                    <a href="#" class="btn btn-dark btn-social rounded-circle" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram text-white"></i></a>
+                    <a href="#" class="btn btn-dark btn-social rounded-circle" aria-label="Facebook" title="Facebook">  <i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#" class="btn btn-dark btn-social rounded-circle" aria-label="Linkedin" title="Linkedin">  <i class="fab fa-linkedin-in text-white"></i></a>
+                </div>
+                <!-- <div class="col-12 col-md-auto my-2">
+                    <a href="#" class="text-yellow mr-2">Privacy Policy</a> <a href="#" class="text-yellow">Terms of Use</a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- Arquivo de Funções JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
